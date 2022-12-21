@@ -4,7 +4,7 @@ const bcrypt = require('bcrypt')
 
 const { User } = db
 
-  
+const jwt = require('json-web-token')
   
 
 __
