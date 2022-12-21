@@ -1,8 +1,5 @@
 
 function CommentCard({ comment, onDelete }) {
-      
-
-function CommentCard({ comment, onDelete }) {
     const { currentUser } = useContext(CurrentUser)
 
     let deleteButton = null;
